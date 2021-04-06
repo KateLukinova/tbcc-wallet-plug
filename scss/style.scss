@@ -420,7 +420,7 @@ section {
 }
 
 .column-one {
-  width: 64%;
+  width: 70%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -534,6 +534,19 @@ section {
           color: rgba(255, 255, 255, 0.64);
           margin: 0;
           text-align: left;
+          white-space: nowrap;
+
+          @media (max-width: 810px) {
+            white-space: normal;
+          }
+
+          @media (max-width: 768px) {
+            white-space: nowrap;
+          }
+
+          @media (max-width: 640px) {
+            white-space: normal;
+          }
         }
       }
     }
@@ -541,7 +554,7 @@ section {
 }
 
 .column-two {
-  width: 34%;
+  width: 28%;
 
   @media (max-width: 768px) {
     display: none;
