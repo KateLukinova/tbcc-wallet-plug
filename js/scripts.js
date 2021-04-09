@@ -8,7 +8,7 @@ $( document ).ready(function() {
             plugCaption: 'Предстоящие обновления',
             plugCaptionSpan: 'в следующие 2-3 месяца',
             plugItemOne: 'Сделки станут быстрее и дешевле',
-            plugItemTwo: 'Экспертное внедрение с OpenSea, Rarible и еще 245 платформами',
+            plugItemTwo: 'Ожидайте интеграции с OpenSea, Rarible и еще 245 платформами.',
             plugItemThree: 'Токен TBCC будет работать по стандарту BEP20',
             plugItemFour: 'Поступает много сервисов DeFi. Ждите продолжения!',
         },
