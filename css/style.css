@@ -153,6 +153,10 @@ section {
     section {
       padding: 35px 0; } }
 
+.logo img {
+  width: 245px;
+  height: 59px; }
+
 .no-wrap {
   white-space: nowrap; }
 

