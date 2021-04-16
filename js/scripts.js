@@ -14,7 +14,7 @@ $( document ).ready(function() {
 
     if (userLang === 'zh-CN') {
         if (!sessionStorage.getItem('test')) {
-            window.location.href = "https://tbccwallet.com/ru";
+            window.location.href = "https://tbccwallet.com/zh";
             sessionStorage.setItem('test', 1);
         }
     }
