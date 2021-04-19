@@ -68,8 +68,6 @@ body {
   color: white;
   background: #081122;
   overflow-x: hidden; }
-  body::-webkit-scrollbar {
-    width: 0; }
 
 p {
   font-family: 'Jost-Regular', sans-serif;
